@@ -1,100 +1,66 @@
 import java.util.Scanner;
 
-public class Main
-{
+public class Main {
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter today`s day(0 - 6):");
         int today = input.nextInt();
         System.out.println("Please enter number of days elapsed since today:");
-        int  elapsedSinceToday = input.nextInt();
-        Today t = new Today(today);
-        futureDay fd = new futureDay();
-        System.out.println("and");
-    }
-}
-class Today
-{
-    int today;
-    Today(int today)
-    {
-
+        int elapsedSinceToday = input.nextInt();
+        int lastDate = elapsedSinceToday + today;
+        System.out.print(disweek(today) + disFutureWeek(lastDate));
     }
 
-    public Today() {
-
+    static int disweek(int a)
+    {
+        if (a == 0) {
+            System.out.print("Today is Sunday ");
+        }
+        else if (a == 1) {
+            System.out.print("Today is Monday ");
+        }
+        else if (a == 2) {
+            System.out.print("Today is Tuesday ");
+        }
+        else if (a == 3) {
+            System.out.print("Today is Wednesday ");
+        }
+        else if (a == 4) {
+            System.out.print("Today is Thursday ");
+        }
+        else if (a == 5) {
+            System.out.print("Today is Friday ");
+        }
+        else if (a == 6) {
+            System.out.print("Today is Saturday ");
+        }
+        return 0;
     }
 
-    public void disweek()
-    {
-        if(today == 0)
-        {
-            System.out.println("Today is Sunday ");
-        }
-        if(today == 1)
-        {
-            System.out.println("Today is Monday ");
-        }
-        if(today == 2)
-        {
-            System.out.println("Today is Tuesday ");
-        }
-        if(today == 3)
-        {
-            System.out.println("Today is Wednesday ");
-        }
-        if(today == 4)
-        {
-            System.out.println("Today is Thursday ");
-        }
-        if(today == 5)
-        {
-            System.out.println("Today is Friday ");
-        }
-        if(today == 6)
-        {
-            System.out.println("Today is Saturday ");
-        }
-    }
-}
-class futureDay extends Today
-{
-    int elapsedSinceToday;
-    int lastDate = elapsedSinceToday + today;
-    futureDay()
-    {
-        super();
-    }
-    public void disFutureWeek()
-    {
-        if(lastDate % 7 == 0)
-        {
+    static int disFutureWeek(int b) {
+        if (b % 7 == 0) {
             System.out.println("the future day is Sunday");
         }
-        if(lastDate % 7 == 1)
-        {
+        else if (b % 7 == 1) {
             System.out.println("the future day is Monday");
         }
-        if(lastDate % 7 == 2)
-        {
+        else if (b % 7 == 2) {
             System.out.println("the future day is Tuesday");
         }
-        if(lastDate % 7 == 3)
-        {
+        else if (b % 7 == 3) {
             System.out.println("the future day is Wednesday");
         }
-        if(lastDate % 7 == 4)
-        {
+        else if (b % 7 == 4) {
             System.out.println("the future day is Thursday");
         }
-        if(lastDate % 7 == 5)
-        {
+        else if (b % 7 == 5) {
             System.out.println("the future day is Friday");
         }
-        if(lastDate % 7 == 6)
-        {
+        else if (b % 7 == 6) {
             System.out.println("the future day is Saturday");
         }
+        return 0;
     }
+
 }
