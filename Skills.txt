@@ -1,4 +1,4 @@
 全局 final+
 保留小数 DecimalFormat d = new DecimalFormat("0.00");
 引用数学 Math.PI
-随机生成数 Math.random()*100 + 10
+随机生成数 Math.random()*100【上限】 + 10【下限】
