@@ -15,7 +15,26 @@ public class Main
                 yCoordinates2 = input.nextDouble(),
                 width2 = input.nextDouble(),
                 height2 = input.nextDouble();
-        if()
 
-    }
+            if((xCoordinates2 - (width2 / 2)) > (xCoordinates1 - (width1 / 2))
+                    && (xCoordinates2 + (width2 / 2)) < (xCoordinates1 + (width1 / 2))
+                    && (yCoordinates2 - (height2 / 2)) > (yCoordinates1 - (height1 / 2))
+                    && (yCoordinates2 + (height2 / 2)) < (yCoordinates1 + (height1 / 2)))
+            {
+                System.out.println("r2 is inside r1");
+            }
+            else if((xCoordinates2 - (width2 / 2)) > (xCoordinates1 - (width1 / 2))
+                    || (xCoordinates2 + (width2 / 2)) < (xCoordinates1 + (width1 / 2))
+                    || (yCoordinates2 - (height2 / 2)) > (yCoordinates1 - (height1 / 2))
+                    || (yCoordinates2 + (height2 / 2)) < (yCoordinates1 + (height1 / 2)))
+            {
+                System.out.println("r2 overlaps r1");
+            }
+            else
+            {
+                System.out.println("r2 does not overlap r1");
+            }
+        }
+
+
 }
