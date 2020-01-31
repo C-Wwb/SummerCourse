@@ -7,3 +7,4 @@
 进位取整:Math.ceil(3.1)=4 
 取绝对值：Math.abs(-3.5)=3.5
 取余数：A%B = 余数
+Math.toDegrees():弧度->度
