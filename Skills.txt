@@ -14,3 +14,7 @@ String s = input.next():一个单词
  Part4
 数学函数、字符和字符串r
 String lotteryNumber =" " + (int)(Math.random() * 10) + (int)(Math.random() * 10);
+
+取出字符串r中的(第一个)字符
+String string;
+char ch = string.charAt(0)
