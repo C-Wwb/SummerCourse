@@ -21,6 +21,7 @@ public class Main
                 System.out.println("The decimal value for hex digit " + letters + " is " + value);
             }
             else if(Character.isDigit(letters))
+
             {
                 System.out.println("The decimal value for hex digit " + letters + " is " + letters);
             }

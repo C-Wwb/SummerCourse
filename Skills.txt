@@ -13,3 +13,4 @@ String s = input.next():一个单词
              = input.nextLine():很多，直到回车结束
  Part4
 数学函数、字符和字符串r
+String lotteryNumber =" " + (int)(Math.random() * 10) + (int)(Math.random() * 10);
