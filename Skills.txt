@@ -7,8 +7,9 @@
 进位取整:Math.ceil(3.1)=4 
 取绝对值：Math.abs(-3.5)=3.5
 取余数：A%B = 余数
-Math.toDegrees():弧度->度
-string1.compareTo(string2)<0:字母表顺序中string1在string2前面
+Math.toDegrees() //弧度->度
+Math.toRadians() // 度->弧度
+string1.compareTo(string2)<0 //字母表顺序中string1在string2前面
 String s = input.next():一个单词
              = input.nextLine():很多，直到回车结束
  Part4
@@ -18,3 +19,5 @@ String lotteryNumber =" " + (int)(Math.random() * 10) + (int)(Math.random() * 10
 取出字符串r中的(第一个)字符
 String string;
 char ch = string.charAt(0)
+
+
