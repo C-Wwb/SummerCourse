@@ -24,4 +24,6 @@ char ch = string.charAt(0)
 int ASCIICode = input.nextInt();
 char character = (char)ASCIICode;
 
+输入char型时，需要通过String和 .charAt（）来进行间接输入
+
 
