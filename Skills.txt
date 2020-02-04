@@ -20,4 +20,8 @@ String lotteryNumber =" " + (int)(Math.random() * 10) + (int)(Math.random() * 10
 String string;
 char ch = string.charAt(0)
 
+转换
+int ASCIICode = input.nextInt();
+char character = (char)ASCIICode;
+
 
