@@ -8,6 +8,7 @@ public class Main
         System.out.println("Please enter an ASCII code from 0 to 127:");
         int ASCIICode = input.nextInt();
         char character = (char)ASCIICode;
+        System.out.println("The character for ASCII code " + ASCIICode + " is " + character);
 
     }
 }
