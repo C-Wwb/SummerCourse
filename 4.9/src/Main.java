@@ -6,7 +6,9 @@ public class Main
     {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter a character:");
-        char character = input.next();
-        int Unicode = (int)'character';
+        String string = input.next();
+        char character = string.charAt(0);
+        int Unicode = (int)character;
+        System.out.println("The Unicode for the character " + character + " is " + Unicode);
     }
 }
