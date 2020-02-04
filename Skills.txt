@@ -20,6 +20,7 @@ String lotteryNumber =" " + (int)(Math.random() * 10) + (int)(Math.random() * 10
 String string;
 char ch = string.charAt(0)
 
+if条件时两个字符串的比较s1.equal(s2)
 转换
 int ASCIICode = input.nextInt();
 char character = (char)ASCIICode;
