@@ -1,7 +1,7 @@
 全局 final+
 保留小数 DecimalFormat d = new DecimalFormat("0.00");
 引用数学 Math.PI
-随机生成数 Math.random()*100【上限】 + 10【下限】
+随机生成数 Math.random()*b + a【下限】 //返回a~a+b之间的一个随机数，不包括a+b
 舍掉小数取整:Math.floor(3.5)=3
 四舍五入取整:Math.rint(3.5)=4
 进位取整:Math.ceil(3.1)=4 
@@ -27,4 +27,4 @@ char character = (char)ASCIICode;
 
 输入char型时，需要通过String和 .charAt（）来进行间接输入
 
-
+数字转化为字符的时候要先取整，再转化
