@@ -28,3 +28,6 @@ char character = (char)ASCIICode;
 输入char型时，需要通过String和 .charAt（）来进行间接输入
 
 数字转化为字符的时候要先取整，再转化
+
+String letter = input.nextLine();//只以回车为结束，可以读取空格后的字符
+String letter = input.next();//以空格为结束，只读取空格前的字符;也以回车为结束
