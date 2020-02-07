@@ -1,0 +1,39 @@
+全局 final+
+保留小数 DecimalFormat d = new DecimalFormat("0.00");
+引用数学 Math.PI
+随机生成数 Math.random()*b + a【下限】 //返回a~a+b之间的一个随机数，不包括a+b
+舍掉小数取整:Math.floor(3.5)=3
+四舍五入取整:Math.rint(3.5)=4
+进位取整:Math.ceil(3.1)=4 
+取绝对值：Math.abs(-3.5)=3.5
+取余数：A%B = 余数
+Math.toDegrees() //弧度->度
+Math.toRadians() // 度->弧度
+string1.compareTo(string2)<0 //字母表顺序中string1在string2前面
+String s = input.next():一个单词
+             = input.nextLine():很多，直到回车结束
+ Part4
+数学函数、字符和字符串r
+String lotteryNumber =" " + (int)(Math.random() * 10) + (int)(Math.random() * 10);
+
+取出字符串r中的(第一个)字符
+String string;
+char ch = string.charAt(0)
+
+if条件时两个字符串的比较s1.equal(s2)
+转换
+int ASCIICode = input.nextInt();
+char character = (char)ASCIICode;
+
+输入char型时，需要通过String和 .charAt（）来进行间接输入
+
+数字转化为字符的时候要先取整，再转化
+
+String letter = input.nextLine();//只以回车为结束，可以读取空格后的字符
+String letter = input.next();//以空格为结束，只读取空格前的字符;也以回车为结束
+
+ch == 'A'//字符的比较
+
+string.length()//返回字符串的长度
+
+s1.contains(s2)//s2是否是s1的子串r
