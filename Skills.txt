@@ -33,3 +33,5 @@ String letter = input.nextLine();//只以回车为结束，可以读取空格后
 String letter = input.next();//以空格为结束，只读取空格前的字符;也以回车为结束
 
 ch == 'A'//字符的比较
+
+string.length()//返回字符串的长度
