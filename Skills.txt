@@ -9,10 +9,8 @@
 取余数：A%B = 余数
 Math.toDegrees() //弧度->度
 Math.toRadians() // 度->弧度
-string1.compareTo(string2)<0 //字母表顺序中string1在string2前面
-String s = input.next():一个单词
-             = input.nextLine():很多，直到回车结束
- Part4
+
+Part4
 数学函数、字符和字符串r
 String lotteryNumber =" " + (int)(Math.random() * 10) + (int)(Math.random() * 10);
 
