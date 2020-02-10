@@ -33,3 +33,4 @@ String letter = input.next();//以空格为结束，只读取空格前的字符;
 1）while（case）{循环体}
 2）long startTime = System.currentTimeMillis();//获取当前时间
 3）(((number1 - number2) == answer) ? " correct": " wrong"//如果两数相减和结果一致，打印correct，否则打印wrong
+4）while（条件）；do（满足条件要做的事）
