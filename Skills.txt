@@ -38,3 +38,5 @@ String letter = input.next();//以空格为结束，只读取空格前的字符;
 6）float i = 0.1f//最小化浮点数误差
 7）long startTime = System.currentTimeMillis();
      long finishTime = System.currentTimeMillis();//观察程序运行时间
+8）break //跳出整个循环
+     continue //跳出本次循环
