@@ -40,3 +40,4 @@ String letter = input.next();//以空格为结束，只读取空格前的字符;
      long finishTime = System.currentTimeMillis();//观察程序运行时间
 8）break //跳出整个循环
      continue //跳出本次循环
+9）int a[] = new int[100//数组的长度];//定义数组
