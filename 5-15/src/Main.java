@@ -7,7 +7,7 @@ public class Main
       int count = 0;//统计素数的个数
       int number = 2;//要被测试的数
       System.out.println("The first 50 prime numbers are \n");
-      for(int test = 2; test <= number / 2; test ++)
+      /*for(int test = 2; test <= number / 2; test ++)
       {
           if(count < NumberOfPrimes)
           {
@@ -23,7 +23,7 @@ public class Main
               break;
           }
       }
-      /*
+      */
       while(count < NumberOfPrimes)
       {
           boolean isPrime = true;//判断这个数是否为素数
@@ -48,6 +48,6 @@ public class Main
               }
           }
           number ++;
-      }*/
+      }
     }
 }
