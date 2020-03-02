@@ -53,4 +53,7 @@ String letter = input.next();//以空格为结束，只读取空格前的字符;
 14）Integer.toBinaryString(num)//转化为二进制
         Integer.toHexString(num)//转化为十六进制
         Integer.toOctalString(num)//转化为八进制
+
+【方法】
+1）Math.max（a，b）；取最大值
 	
