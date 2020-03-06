@@ -48,7 +48,7 @@ String letter = input.next();//以空格为结束，只读取空格前的字符;
 11）List<Integer> orderlyArray = new ArrayList<Integer>();//有序数组  
        orderlyArray.add(chaoticArray[0]);//向数组中添加元素
 12）String.format("%.2f", e)//保留的法则和数
-13）“/t/t”//打印空格且不会出现：9     ？？？ 的情况
+13）“\t\t”//打印空格且不会出现：9     ？？？ 的情况
 			        10    ？？？	
 14）Integer.toBinaryString(num)//转化为二进制
         Integer.toHexString(num)//转化为十六进制
