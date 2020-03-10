@@ -1,16 +1,11 @@
-
-
-/**
- * @author wk
- * @date 2019/9/25  9:34
- */
-public class Main {
+public class Main
+{
     public static void main(String[] args)
     {
         int count = 0;
-        for (int i = 2; i < 100_000_000_0; i++)
+        for(int i = 2; i > 0; i++)
         {
-            if (i == pre(i) && test(i) )
+            if(testPrime(i) && i != testPalindrome(i) && testPrime(testReverse(i)))
             {
                 count++;
                 System.out.print(i + " ");
@@ -24,15 +19,8 @@ public class Main {
                 }
             }
         }
-
     }
-
-    /**
-     * 判断是否是素数
-     * @param n
-     * @return
-     */
-    public static boolean test(int n)
+    public static boolean testPrime(int n)//判断素数
     {
         if (n < 2)
         {
@@ -48,13 +36,7 @@ public class Main {
         }
         return true;
     }
-
-    /**
-     * 判断是否是回文数
-     * @param n
-     * @return
-     */
-    public static Integer pre(int n)
+    public static Integer testPalindrome(int n)//判断回文
     {
         int temp = 0;
         while (n > 0){
@@ -62,5 +44,16 @@ public class Main {
             n = n / 10;
         }
         return temp;
+    }
+    public static int testReverse(int n)//判断反
+    {
+        int s,j = 0;
+        s = n;
+        while (s != 0)
+        {
+            j = j * 10 + s % 10;
+            s = s / 10;
+        }
+        return j;
     }
 }
