@@ -13,7 +13,7 @@ public class Main
                p2x = input.nextDouble(),
                p2y = input.nextDouble(),
                judge = (p1x - p0x) * (p2y - p0y) - (p2x - p0x) * (p1y - p0y);
-        /*if(judge > 0)
+        if(judge > 0)
         {
             System.out.println("p2 is on the left side of the line");
         }
@@ -24,8 +24,8 @@ public class Main
         else
         {
             System.out.println("p2 is on the right side of the line");
-        }*/
-        if((judge == 0) && (p2x > p0x) && (p2x < p1x))
+        }
+        /*if((judge == 0) && (p2x > p0x) && (p2x < p1x))
         {
             System.out.println("(" + p2x + ", " + p2y + ") is on the line segment from (" + p0x + ", " + p0y + ") to "
             + "(" + p1x + ", " + p1y + ")");
@@ -34,7 +34,7 @@ public class Main
         {
             System.out.println("(" + p2x + ", " + p2y + ") is not on the line segment from (" + p0x + ", " + p0y + ") to "
                 + "(" + p1x + ", " + p1y + ")");
-        }
+        }*/
 
 
     }
