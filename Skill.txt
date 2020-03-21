@@ -58,4 +58,6 @@ String letter = input.next();//以空格为结束，只读取空格前的字符;
 1）Math.max（a，b）；取最大值 
 【数组】
 1）打印不同的东西用两次循环，第一个循环输入就成
+2）public static void printMax(double...numbers)
+//可变长数组，输入时数字逗号分开，也可以直接输入数组
 	
