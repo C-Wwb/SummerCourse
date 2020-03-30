@@ -1,28 +1,26 @@
-import java.util.Scanner;
-
 public class Main
 {
     public static void main(String[] args)
     {
-        Scanner input = new Scanner(System.in);
-        int[] numbers = new int[100];
-        int[] count = new int[101];
-        int times = 0;
-        for(int i = 0; i < numbers.length; i++)
+        int[] number = new int[100];
+        double[] count = new double[101];
+        for(int i = 0; i < 100; i++)
         {
-            int number = (int)(Math.random() * 100 + 1);
-            numbers[i] = number;
-            count[numbers[i]]++;
+            number[i] = (int)(Math.random() * 100 + 1);
+            count[number[i]]++;
         }
-        java.util.Arrays.sort(numbers);
-        numbers = changeMethodOne(numbers);
-        for(int i = 0; i < numbers.length; i++)
+        java.util.Arrays.sort(number);
+        number = changeMethodOne(number);
+        for(int i = 0; i < number.length; i++)
         {
-            if(numbers[i] == 0)
+            if(number[i] == 0)
             {
                 continue;
             }
-            System.out.println(numbers[i] + " occurs " + count[numbers[i]] + " times");
+            else
+            {
+                System.out.println(number[i] + " occurs " + count[number[i]] + " times");
+            }
         }
     }
     public static int[] changeMethodOne(int[] src){//方法一  去掉重复数字
