@@ -8,7 +8,7 @@ public class Main
             deck[i] = i;
         }
         for(int i = 0; i < deck.length; i++)
-        {
+        {//随机取牌
             int randomIndex = (int)(Math.random() * deck.length);
             int temp = deck[i];
             deck[i] = deck[randomIndex];
