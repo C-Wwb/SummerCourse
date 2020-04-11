@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c70c661-a8ea-4c10-a45f-024b023f97dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="3c70c661-a8ea-4c10-a45f-024b023f97dd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,6 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586513852399</updated>
       <workItem from="1586513854775" duration="1639000" />
+      <workItem from="1586529218377" duration="133000" />
     </task>
     <servers />
   </component>
@@ -90,6 +88,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="468" y="107" key="FileChooserDialogImpl" timestamp="1586529344829">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="468" y="107" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1586529344829" />
     <state width="1411" height="258" key="GridCell.Tab.0.bottom" timestamp="1586515494646">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
@@ -122,5 +124,13 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state width="1411" height="258" key="GridCell.Tab.1.right/0.0.1474.864@0.0.1474.864" timestamp="1586515494646" />
+    <state x="341" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1586529312512">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="341" y="211" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1586529312512" />
+    <state x="0" y="0" key="new project wizard" timestamp="1586529353797">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="0" y="0" key="new project wizard/0.0.1474.864@0.0.1474.864" timestamp="1586529353797" />
   </component>
 </project>
