@@ -18,57 +18,40 @@ public class Main
             }
         }
         System.out.println(Arrays.deepToString(matrix));
-        isRow(matrix);
-        isCol(matrix);
+        judge(matrix, size);
     }
-    public static void isRow(int[][] matrix)
+    public static void judge(int[][] matrix, int size)
     {
-        int row = 0;
-        while(row < 4)
+        int count = 0;//每一行的单个元素相同统计
+        int totalCount = 0;//统计该矩阵是否有相同行
+        for(int i = 0; i < size; i++)
         {
-            if(matrix[row][0] == matrix[row][1]
-                    && matrix[row][0] == matrix[row][2]
-                    && matrix[row][0] == matrix[row][3])
+            for(int j = 0; j < size - 1; j++)
             {
-                if(matrix[row][0] == 0)
+                if(matrix[i][j] == matrix[i][j + 1])
                 {
-                    System.out.println("All 0s on row " + row);
-                }
-                else if(matrix[row][0] == 1)
-                {
-                    System.out.println("All 1s on row " + row);
-                }
-                else
-                {
-                    System.out.println("No same numbers on a row");
+                    count++;
                 }
             }
-            row++;
+            if(count < size - 1)
+            {
+                totalCount++;
+            }
+            if(count == size - 1)
+            {
+                if(matrix[i][0] == 0)
+                {
+                    System.out.println("All 0s numbers on row " + i);
+                }
+                if(matrix[i][0] == 1)
+                {
+                    System.out.println("All 1s numbers on row " + i);
+                }
+            }
         }
-    }
-    public static void isCol(int[][] matrix)
-    {
-        int col = 0;
-        while(col < 4)
+        if(totalCount == 4)
         {
-            if(matrix[0][col] == matrix[1][col]
-                    && matrix[0][col] == matrix[2][col]
-                    && matrix[0][col] == matrix[3][col])
-            {
-                if(matrix[0][col] == 0)
-                {
-                    System.out.println("All 0s on col " + col);
-                }
-                else if(matrix[0][col] == 1)
-                {
-                    System.out.println("All 1s on col " + col);
-                }
-                else
-                {
-                    System.out.println("No same numbers on a col");
-                }
-            }
-            col++;
+            System.out.println("No same numbers on a row");
         }
     }
 }
