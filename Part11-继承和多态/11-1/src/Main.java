@@ -13,6 +13,7 @@ public class Main
         System.out.println("\nA rectangle " + rectangle.toString());
         System.out.println("The area is " + rectangle.getArea());
         System.out.println("The perimeter is " + rectangle.getPerimeter());
+
     }
 }
 class GeometricObject
