@@ -73,4 +73,14 @@ String letter = input.next();//以空格为结束，只读取空格前的字符;
 【面向对象思考】
 1）+ //public
 2）- //private
+3）#//protected
+
+【继承和多态】
+1）this.name //防止创建的实例混淆，表示类内创建实例
+2）super.方法 //调用父类方法
+3）@Override //重写父类方法
+4）instanceof // object instanceof Circle，对象转换
+
+【抽象类和接口】
+1）所有和抽象有关的东西，都斜体表示
 	
