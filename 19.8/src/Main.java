@@ -1,4 +1,4 @@
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
@@ -7,20 +7,15 @@ public class Main
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
-        System.out.println("Please enter the size of list: ");
-        int size = input.nextInt();
-        Integer[] list = new Integer[size];
-        System.out.println("Please enter the array: ");
-        for(int i = 0; i < list.length; i++)
-        {
-            list[i] = input.nextInt();
-        }
+        ArrayList list = new ArrayList();
+        list.add(2);
+        list.add(3);
+        list.add(1);
         shuffle(list);
-        System.out.println(Arrays.toString(list));
+        System.out.println(list);
     }
-    public static <E> void shuffle(Integer[] list)
+    public static <E> void shuffle(ArrayList<E> list)
     {
-        Collections.shuffle(Arrays.asList(list));
+        Collections.shuffle(list);
     }
-
 }

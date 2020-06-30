@@ -86,4 +86,5 @@ String letter = input.next();//以空格为结束，只读取空格前的字符;
 
 【泛型】
 1）Collections.shuffle()  //随机打乱数组
+2）Collections包针对链表
 	
