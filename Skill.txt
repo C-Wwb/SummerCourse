@@ -83,4 +83,7 @@ String letter = input.next();//以空格为结束，只读取空格前的字符;
 
 【抽象类和接口】
 1）所有和抽象有关的东西，都斜体表示
+
+【泛型】
+1）Collections.shuffle()  //随机打乱数组
 	
