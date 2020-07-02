@@ -87,4 +87,14 @@ String letter = input.next();//以空格为结束，只读取空格前的字符;
 【泛型】
 1）Collections.shuffle()  //随机打乱数组
 2）Collections包针对链表
+
+【线性表、栈、队列和优先队列】
+1）set、list、queue都继承Collection这个包，并且该包中有一些公共方法
+2）list.contains(a) //判断list中是否有元素a，若有返回true
+3）list.remove(a) //删除list中的a元素
+4）list.size() //返回list的大小
+5）list.clone(list1) //使得list中的内容与list1相同
+6）list.addAll(list1) //将list1中元素添加到list中
+7）list.retainAll(list1) //list1和list取交集
+8）list.removeAll(list1) //将list中所有list1的包含的元素删除
 	
