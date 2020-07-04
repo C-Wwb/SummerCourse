@@ -97,4 +97,10 @@ String letter = input.next();//以空格为结束，只读取空格前的字符;
 6）list.addAll(list1) //将list1中元素添加到list中
 7）list.retainAll(list1) //list1和list取交集
 8）list.removeAll(list1) //将list中所有list1的包含的元素删除
-	
+9）Iterator<String> iterator = collection.iterator();
+        while (iterator.hasNext())
+        {
+            System.out.println(iterator.next().toUpperCase() + " ");
+        }
+    //迭代器
+10）list.forEach(e->a) //对list中的每个元素执行a操作
