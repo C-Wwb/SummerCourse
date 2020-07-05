@@ -94,7 +94,7 @@ String letter = input.next();//以空格为结束，只读取空格前的字符;
 3）list.remove(a) //删除list中的a元素
 4）list.size() //返回list的大小
 5）list.clone(list1) //使得list中的内容与list1相同
-6）list.addAll(list1) //将list1中元素添加到list中
+6）list.addAll(list1) //将list1中元素添加到list中，list.addAll(index, collection) //在指定位置添加一个集合
 7）list.retainAll(list1) //list1和list取交集
 8）list.removeAll(list1) //将list中所有list1的包含的元素删除
 9）Iterator<String> iterator = collection.iterator();
@@ -104,3 +104,12 @@ String letter = input.next();//以空格为结束，只读取空格前的字符;
         }
     //迭代器
 10）list.forEach(e->a) //对list中的每个元素执行a操作
+11）list.add(index, element) //在指定位置插入元素
+12）list.set(index, element) //将指定位置元素变为element
+13）list.indexOf(element) //获取element在list中第一次出现的下标
+14）list.lastIndexOf(element) //获取element在list中最后一次出现的下标
+15）list.subList(fromIndex, toIndex) //获取下标从fromIndex到toIndex的子线性表
+16）ListIterator<Integer> list1 = list.listIterator(); //增强双向遍历能力，其方法运用见P29
+17）ArrayList：通过下标随机访问元素
+       LinkedList：在起始位置插入或删除元素
+       Array：不需要在进程中插入或删除元素
