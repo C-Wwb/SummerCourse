@@ -113,3 +113,5 @@ String letter = input.next();//以空格为结束，只读取空格前的字符;
 17）ArrayList：通过下标随机访问元素
        LinkedList：在起始位置插入或删除元素
        Array：不需要在进程中插入或删除元素
+18）Collections.disjoint(collection1, collection2)// 若c1和c2中没有相同的元素返回true
+19）Collections.frequency(collection1, a)// 返回c1中a元素的个数
