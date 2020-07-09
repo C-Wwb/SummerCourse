@@ -89,6 +89,7 @@ String letter = input.next();//以空格为结束，只读取空格前的字符;
 2）Collections包针对链表
 
 【线性表、栈、队列和优先队列】
+【线性表】
 1）set、list、queue都继承Collection这个包，并且该包中有一些公共方法
 2）list.contains(a) //判断list中是否有元素a，若有返回true
 3）list.remove(a) //删除list中的a元素
@@ -115,3 +116,10 @@ String letter = input.next();//以空格为结束，只读取空格前的字符;
        Array：不需要在进程中插入或删除元素
 18）Collections.disjoint(collection1, collection2)// 若c1和c2中没有相同的元素返回true
 19）Collections.frequency(collection1, a)// 返回c1中a元素的个数
+
+【队列】
+1）queue.poll()// 获取并删除队列头元素，若队列为空则返回null
+2）queue.remove()// 获取并删除队列头元素，若队列为空则抛出异常
+3）queue.peek()// 获取但不删除队列头元素，若队列为空则返回null
+4）queue.element()// 获取但不删除队列头元素，若队列为空则抛出异常
+5）LinkedList继承List || Deque（双端队列） || Queue
