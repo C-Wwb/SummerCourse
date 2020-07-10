@@ -123,3 +123,4 @@ String letter = input.next();//以空格为结束，只读取空格前的字符;
 3）queue.peek()// 获取但不删除队列头元素，若队列为空则返回null
 4）queue.element()// 获取但不删除队列头元素，若队列为空则抛出异常
 5）LinkedList继承List || Deque（双端队列） || Queue
+6）PriorityQueue //优先队列，会自动把队列内元素排序
