@@ -124,3 +124,10 @@ String letter = input.next();//以空格为结束，只读取空格前的字符;
 4）queue.element()// 获取但不删除队列头元素，若队列为空则抛出异常
 5）LinkedList继承List || Deque（双端队列） || Queue
 6）PriorityQueue //优先队列，会自动把队列内元素排序
+
+【散列】
+1）map.put(key, value)
+2）String key : map.keySet //遍历key
+3）String value : map.values() //遍历value
+4）Map.Entry<String, String> entry : map.entrySet() //entry方法
+5）map.forEach((key,value)->a)// forEach方法，遍历key和value来进行a操作
