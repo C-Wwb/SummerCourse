@@ -131,3 +131,15 @@ String letter = input.next();//以空格为结束，只读取空格前的字符;
 3）String value : map.values() //遍历value
 4）Map.Entry<String, String> entry : map.entrySet() //entry方法
 5）map.forEach((key,value)->a)// forEach方法，遍历key和value来进行a操作
+
+【集合】
+1）LinkedHashSet //和链表一样，按照插入的顺序获取，并且会删去重复元素
+2）TreeSet //保证规则集中的元素是有序的(按照字典顺序排序)，并且会删去重复元素
+3）treeSet.headSet("New York")/*返回集合中小于指定元素的部分*/
+4）treeSet.tailSet("New York")/*返回集合中大于等于指定元素的部分*/
+5）treeSet.lower("P")/*返回集合中小于该元素的元素*/
+6）treeSet.floor("P")/*返回集合中小于等于该元素的元素*/
+7）treeSet.ceiling("P")/*返回集合中大于等于该元素的元素*/
+8）treeSet.higher("P")/*返回集合中大于该元素的元素*/
+9）treeSet.pollFirst()/*删除并返回集合中的第一个元素*/
+10）treeSet.pollLast()/*删除并返回集合中的最后一个元素*/
