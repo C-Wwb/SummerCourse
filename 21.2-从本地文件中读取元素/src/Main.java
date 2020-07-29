@@ -1,8 +1,5 @@
 import java.io.File;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
 public class Main
 {
@@ -14,31 +11,22 @@ public class Main
         File file = new File(filename);
         if (file.exists())
         {
-            System.out.println("The number of keywords in " + filename + " is " + countKeywords(file));
+            System.out.println(print(file));
         }
         else
         {
             System.out.println("File " + filename + " does not exit");
         }
     }
-
-    private static int countKeywords(File file) throws Exception
+    private static PriorityQueue<String> print(File file) throws Exception
     {
-        String[] keywordString = {"abstract", "assert", "boolean"};
-
-        Set<String> keywordSet = new HashSet<>(Arrays.asList(keywordString));
-        int count = 0;
-
+        PriorityQueue<String> result = new PriorityQueue<>();
         Scanner input = new Scanner(file);
-
         while (input.hasNext())
         {
             String word = input.next();
-            if (keywordSet.contains(word))
-            {
-                count++;
-            }
+            result.add(word);
         }
-        return count;
+        return result;
     }
 }
