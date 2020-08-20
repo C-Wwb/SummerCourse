@@ -35,6 +35,7 @@ public class Main
             if (j == s2.length())
             {
                 return index;
+
             }
         }
         return -1;
