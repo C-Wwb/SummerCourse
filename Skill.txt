@@ -143,3 +143,6 @@ String letter = input.next();//以空格为结束，只读取空格前的字符;
 8）treeSet.higher("P")/*返回集合中大于该元素的元素*/
 9）treeSet.pollFirst()/*删除并返回集合中的第一个元素*/
 10）treeSet.pollLast()/*删除并返回集合中的最后一个元素*/
+
+【排序】
+1）System.arraycopy(fromArray，beginIndex，toArray，endIndex，length)
